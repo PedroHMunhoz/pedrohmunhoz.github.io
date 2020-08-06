@@ -157,7 +157,8 @@ figure.effect-oscar h2 {
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
-	color:#A3A3A3;
+    color:#A3A3A3;
+    font-size: 28px;
 }
 
 figure.effect-oscar figcaption::before,
@@ -180,7 +181,7 @@ figure.effect-oscar:hover p {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-	color: #adadad;+++++++
+	color: #adadad;
 }
 
 figure.effect-oscar:hover figcaption {
@@ -300,9 +301,9 @@ p {
     float: initial;
 }
 
-.navStyle ul li:first-child {
-	/*margin:0px;*/;
-}
+/* .navStyle ul li:first-child {
+	margin:0px;
+} */
 
 .navStyle ul li:last-child {
     margin: 0 0 0 23px;
@@ -469,8 +470,8 @@ a.read_more:hover {
 .timeline{
 	padding:110px 0;
 }
-.timeline h2{ 
-}
+/* .timeline h2{ 
+} */
 
 
 
@@ -490,8 +491,8 @@ a.read_more:hover {
     padding: 40px 0 40px;
 }
 
-.service_section {
-}
+/* .service_section {
+} */
 
 .service_block {
     text-align: center;
@@ -580,7 +581,7 @@ color:#fff;
 }
 
 .service-list-col1 i {
-    display:;
+    /* display:; */
     color: #888;
     font-size: 19px;
     font-style: normal;
@@ -641,7 +642,7 @@ a.contact_btn:hover {
 
 #Portfolio {
     padding: 110px 0;
-    background: #03a9f4;
+    /* background: #03a9f4; */
 }
 
 .Portfolio-nav {
@@ -817,6 +818,7 @@ img {
 
 .page_section.team {
     padding: 60px 0;
+    /* background: #03a9f4; */
 }
 
 .page_section.team h6 {
@@ -1856,7 +1858,7 @@ div.mc-image {
     bottom: 40px;
     padding: 10px 20px;
     text-indent: 0px;
-    moz-border-radius: 0px;
+    -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
     border-radius: 0px;
     z-index: 1000;
@@ -1952,11 +1954,11 @@ color: #777;
 font-size: 12px;
 line-height: 22px;
 }
-img {
- /* min-height: 40px; */
- /* max-height: 40px; */
-}
 
+/* img {
+ min-height: 40px; 
+  max-height: 40px;
+} */
 
 .card {
     padding-top: 20px;
@@ -2199,7 +2201,7 @@ img {
 }
 .card.hovercard .info .desc {
     overflow: hidden;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
     color: rgba(255, 255, 255, 0.77);
     text-overflow: ellipsis;
@@ -2250,7 +2252,7 @@ text-align: center;
 p{
 font-size:14px;
 }
-.top_cont_outer {/* height: 420px; */}
+/* .top_cont_outer { height: 420px; } */
 .hero_section {
 position: relative;
 padding-top: 10px;
@@ -2291,7 +2293,7 @@ margin: 0 18px;
 .page_section.team{
 padding: 40px 0;
 }
-, #clients {
+#clients {
 padding: 40px 0;
 }
 .client_logos ul li {
@@ -2300,7 +2302,7 @@ margin: 0 25px;
 padding: 11px 0;
 display: inline-block;
 }
-.social_links li {}
+/* .social_links li {} */
 .contact_section{
 margin:0;
 }
